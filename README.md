@@ -1,7 +1,3 @@
----
-title: Tim Fischer's personal website
----
-
 ## Welcome to my personal website
 
 ### `whoami`
