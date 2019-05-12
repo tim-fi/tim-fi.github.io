@@ -20,7 +20,7 @@ The whole thing started after a pen and paper session with some friend where we 
 The current project though is a an evolution of the original version. I was mostly fed up with the fact the the original had to parse the template file and build an AST everytime the formatter was run. To get around this I added a simple way to compile the generated AST into a static file thanks to python's own pickle module and the wonderfull extension built upon it called dill.
 
 ##### Example
-###### Template file
+###### Template file: `template.md`
 {% raw %}
 ```md
 # Test {{ name }}
@@ -31,7 +31,7 @@ The current project though is a an evolution of the original version. I was most
 {% endfor %}
 ```
 {% endraw %}
-###### Data file
+###### Data file: `data.json`
 ```javascript
 {
   "name": "World",
@@ -42,7 +42,13 @@ The current project though is a an evolution of the original version. I was most
   }
 }
 ```
-###### Result
+###### Commands
+```sh
+md_template compile template.md template.mdtemp
+md_template apply template.mdtemp data.json out.md
+```
+
+###### Result: `out.md`
 ```md
 # Test World
 
