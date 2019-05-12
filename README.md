@@ -1,6 +1,4 @@
----
-title: Tim Fischer
----
+# Tim Fischer
 
 ## Welcome to GitHub Pages
 
