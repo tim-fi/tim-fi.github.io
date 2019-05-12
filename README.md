@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+## Welcome to my personal website
 
-You can use the [editor on GitHub](https://github.com/tim-fi/tim-fi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### `whoami`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I'm a 21 software engineer and computer science bachelor student at the University of Tübingen. I work at the university in the work group Methods of Machine Learning, and at a small company called mecodia. At both I work as a full-stack webdeveloper.
 
-### Markdown
+### What else?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In my free time I do many things, for the most part I code around a bit playing with some side projects from time to time. But the rest of the time I spend hanging out with some friends and doing gymnastics.
 
-```markdown
-Syntax highlighted code block
+### Projects
 
-# Header 1
-## Header 2
-### Header 3
+#### [md_template](https://github.com/tim-fi/md_template)
 
-- Bulleted
-- List
+##### Desciption
+This is a simple formatting engine, made to work well with markdown and json as a datasource.
 
-1. Numbered
-2. List
+The whole thing started after a pen and paper session with some friend where we used an online tool for our character sheets. Exporting the datasheets was possible through the tool, but as we soon found out it only exported everything as a json-file. Of course I started coming up with some sensible ways to format the data into something more human-readable. And thus the first version of this was born.
 
-**Bold** and _Italic_ and `Code` text
+The current project though is a an evolution of the original version. I was mostly fed up with the fact the the original had to parse the template file and build an AST everytime the formatter was run. To get around this I added a simple way to compile the generated AST into a static file thanks to python's own pickle module and the wonderfull extension built upon it called dill.
 
-[Link](url) and ![Image](src)
+##### Example
+Template file
+```md
+# Test {{ name }}
+
+{% for key, value in data.items() %}
+## {{ key }}
+{{ value }}
+{% endfor %}
 ```
+Data file
+```javascript
+{
+  "name": "World",
+  "data": {
+    "Test 1": "abc",
+    "Test 2": "def",
+    "Test 3": "ghi",
+  }
+}
+```
+Result
+```md
+# Test World
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Test 1
+abc
 
-### Jekyll Themes
+## Test 2
+def
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tim-fi/tim-fi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Test 3
+ghi
+```
