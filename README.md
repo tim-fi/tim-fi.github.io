@@ -10,6 +10,9 @@ In my free time I do many things, for the most part I code around a bit playing 
 
 ## Projects
 
+### [dfb_predict](https://github.com/tim-fi/dfb_predict)
+This was a graded project from university, the jist of it was that we needed to develop an application to predict game in the DFB 1.Liga, the german football league. It encompased everything from data collection and processing, match prediction using stochastic methods, and UI development for an easy to use interface. 
+
 ### [md_template](https://github.com/tim-fi/md_template)
 
 #### Desciption
