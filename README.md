@@ -1,3 +1,7 @@
+---
+title: Tim Fischer's personal website
+---
+
 ## Welcome to my personal website
 
 ### `whoami`
@@ -21,14 +25,16 @@ The current project though is a an evolution of the original version. I was most
 
 ##### Example
 Template file
+{% raw %}
 ```md
-# Test \{{ name }}
+# Test {{ name }}
 
-\{% for key, value in data.items() %}
-## \{{ key }}
-\{{ value }}
-\{% endfor %}
+{% for key, value in data.items() %}
+## {{ key }}
+{{ value }}
+{% endfor %}
 ```
+{% endraw %}
 Data file
 ```javascript
 {
