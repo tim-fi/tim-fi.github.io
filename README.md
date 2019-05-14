@@ -2,7 +2,7 @@
 
 ## `whoami`
 
-My name is Tim Fischer, I'm a 21 software engineer and computer science bachelor student at the University of Tübingen. I live in south-western Germany, to more specific in the county of Böblingen, about 30 minutes south of Stuttgart and 20 mintues north of Tübingen. I work at my university in the work group [Methods of Machine Learning](https://www.wsi.uni-tuebingen.de/lehrstuehle/methoden-des-maschinellen-lernens/), and at a small company called [mecodia](https://mecodia.de/). At both I work as a full-stack webdeveloper.
+My name is Tim Fischer, I'm a 21 year old software engineer and computer science bachelor student at the University of Tübingen. I live in south-western Germany, to more specific in the county of Böblingen, about 30 minutes south of Stuttgart and 20 mintues north of Tübingen. I work at my university in the work group [Methods of Machine Learning](https://www.wsi.uni-tuebingen.de/lehrstuehle/methoden-des-maschinellen-lernens/), and at a small company called [mecodia](https://mecodia.de/). At both I work as a full-stack webdeveloper.
 
 ## What else?
 
