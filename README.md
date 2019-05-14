@@ -10,6 +10,9 @@ In my free time I do many things, for the most part I code around a bit, playing
 
 ## Projects
 
+### [Talks.Tue](https://github.com/talks-tue/talks.tue.flask)
+This is the project I currently work on at my University. It is meant to be a small web-app for managing all the the talks that take place around the CS-department of the university and the [MPI for Inteligent System branch in Tübingen](https://is.tuebingen.mpg.de/).
+
 ### [dfb_predict](https://github.com/tim-fi/dfb_predict)
 This was a graded group project from university, the jist of it was that we needed to develop an application to predict game in the DFB 1.Liga, the german football league. It encompased everything from data collection and processing, match prediction using stochastic methods, and UI development for an easy to use interface.
 
