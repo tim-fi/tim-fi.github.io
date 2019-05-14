@@ -6,7 +6,7 @@ My name is Tim Fischer, I'm a 21 year old software engineer and computer science
 
 ## Projects
 
-The most of the following projects and more can be found on [my private github profile](https://github.com/tim-fi).
+Most of the following projects and more can be found on [my private github profile](https://github.com/tim-fi).
 
 ### [Talks.Tue](https://github.com/talks-tue/talks.tue.flask)
 This is the project I currently work on at my University. It is meant to be a small web-app for managing all of the talks that take place around the CS-department of the university and the [MPI for Inteligent Systems branch in Tübingen](https://is.tuebingen.mpg.de/).
