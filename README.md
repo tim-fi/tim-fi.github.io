@@ -19,6 +19,50 @@ This was a graded group project from university, the jist of it was that we need
 ![prediction config tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/002.png)
 ![prediction result tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/003.png)
 
+### [pyCompose](https://github.com/tim-fi/pycompose)
+
+#### Description
+This is a simple little python-"_library_" that abstracts composition of objects and the forwarding of attributes/fields into an inheritable wrapper. This came to be after watching [Ariel Ortiz's 2019 PyCon talk](https://www.youtube.com/watch?v=YXiaWtc0cgE) in which he mentioned the [forwardable](https://github.com/5long/forwardable) library, the syntax of which I found to be unclear and a not to pretty.
+
+#### Example
+```python
+from pycompose import Compose
+
+
+class A:
+    test1 = "123"
+
+    def hello(self):
+        print("A")
+
+    def __repr__(self):
+        return "<A>"
+
+
+class B:
+    test2 = "456"
+
+    def hello(self):
+        print("B")
+
+    def __repr__(self):
+        return "<B>"
+
+
+class C(
+    Compose(A, "test1", ("hello", "helloA")),
+    Compose(B, "test2", ("hello", "helloB"), name="b_object"),
+):
+    ...
+
+
+c = C()
+print(c.test1 + c.test2)  # > 123456
+c.helloA()                # > A
+c.helloB()                # > B
+print(c._a, c.b_object)   # > <A> <B>
+```
+
 ### [md_template](https://github.com/tim-fi/md_template)
 
 #### Desciption
