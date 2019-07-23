@@ -124,12 +124,3 @@ The scripts written include things like...
 * ...`md_toc`, which adds a table of contents (TOC) to markdown files
 * ...`md_template`, the orignal version of [md_template](#md_template)
 * ...`weather`, a simple cli for fecthing weather data from [wttr.in](https://wttr.in)
-
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
