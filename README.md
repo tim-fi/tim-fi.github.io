@@ -8,6 +8,9 @@ My name is Tim Fischer, I'm a 21 year old software engineer and computer science
 
 Most of the following projects and more can be found on [my private github profile](https://github.com/tim-fi).
 
+### [ActFit](https://github.com/tim-fi/ActFit)
+ActFit is a simple UI tool for fitting functions to data. It is my extended version of a project a friend of mine created, who initially wrote it, because he was annoyed at having to write the same code over and over again when he wanted to fit data. His version made use of matplotlib widgets, but I felt there was room for improvement using tkinter instead.
+
 ### [Talks.Tue](https://github.com/talks-tue/talks.tue.flask)
 This is the project I currently work on at my University. It is meant to be a small web-app for managing all of the talks that take place around the CS-department of the university and the [MPI for Inteligent Systems branch in Tübingen](https://is.tuebingen.mpg.de/).
 
@@ -18,6 +21,9 @@ This was a graded group project from university, the jist of it was that we need
 ![data management tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/001.png)
 ![prediction config tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/002.png)
 ![prediction result tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/003.png)
+
+### [swpatterns](https://github.com/tim-fi/swpatterns)
+This library is a superset to the [pyCompose](#pyCompose)-project which I started when I wanted to see if I could implement interfaces in python. It include such things as said interfaces, composition (of course extended with interfaces), and even a small implementation of matching-expressions.
 
 ### [pyCompose](https://github.com/tim-fi/pycompose)
 
