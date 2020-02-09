@@ -1,0 +1,3 @@
+name: Tim Fischer
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
