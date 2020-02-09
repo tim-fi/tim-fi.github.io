@@ -22,9 +22,6 @@ This was a graded group project from university, the jist of it was that we need
 ![prediction config tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/002.png)
 ![prediction result tab](https://raw.githubusercontent.com/tim-fi/dfb_predict/master/presentation/gui_imgs/003.png)
 
-### [swpatterns](https://github.com/tim-fi/swpatterns)
-This library is a superset to the [pyCompose](#pycompose)-project which I started when I wanted to see if I could implement interfaces in python. It include such things as said interfaces, composition (of course extended with interfaces), and even a small implementation of matching-expressions.
-
 ### [pyCompose](https://github.com/tim-fi/pycompose)
 
 #### Description
