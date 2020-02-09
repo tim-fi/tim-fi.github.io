@@ -1,3 +1,7 @@
-name: Tim Fischer
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
